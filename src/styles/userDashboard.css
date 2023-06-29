@@ -1,0 +1,53 @@
+.box1{
+    background-image: url("b1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.box2{
+    background-image: url("b2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.box3{
+    background-image: url("b3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    width: 100%;
+margin-top: 40px;
+margin-left: 40px;
+}
+.box4{
+    background-image: url("b4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+}
+.box5{
+    background-image: url("b5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    width: 100%;
+}
+.box6{
+    background-image: url("b5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}

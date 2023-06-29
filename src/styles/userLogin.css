@@ -1,0 +1,49 @@
+.userLogin{
+    background-image: url("113.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.back{
+    padding-top: 180px;
+}
+
+.form_containerr{
+    background-color: rgba(255, 255, 255, 0.384);
+    height: 400px ;
+    width: 450px ;
+    margin-left: 550px;
+    border-radius: 20px;
+}
+
+
+.form_containerr h1{
+    color: black;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.form_inputt{
+    margin-top: 30px;
+    color: aliceblue;
+}
+.form_inputt input{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    border-radius: 10px;
+    padding-right: 100px;
+    border: none;
+}
+.form_inputt button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 4px 20px 6px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 170px;
+} 

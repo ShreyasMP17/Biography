@@ -1,0 +1,31 @@
+.userNavbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+.userNavbar a{
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+margin-right: 50px;
+font-size: 20px;
+
+
+}
+.userNavbar p{
+    color:white;
+    padding-top: 10px;
+    
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 900px;
+    
+}
+
+.userNavbar a:hover{
+    border-bottom: 6px solid rgb(175, 56, 56);
+    color: white;
+  
+}
