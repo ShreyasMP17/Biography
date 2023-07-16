@@ -5,7 +5,7 @@ const UserList = () => {
     let [users,setUsers]=useState([])
     useEffect(()=>{
         let fetchData = async() => {
-            let response = await fetch("http://localhost:3000/users")
+            let response = await fetch("https://biodb-0wdv.onrender.com/users")
             let data= await response.json()
             setUsers(data)
         }

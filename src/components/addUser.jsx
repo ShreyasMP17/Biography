@@ -17,7 +17,7 @@ const AddUser = () => {
         let userData = {name,age,email,phoneNumber}
 
         //posting to server
-        fetch("http://localhost:3000/users", {
+        fetch("https://biodb-0wdv.onrender.com/users", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(userData)

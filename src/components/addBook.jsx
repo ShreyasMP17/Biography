@@ -21,7 +21,7 @@ const AddBook = () => {
         let bookData = {Name, DOB, Role, Place,Height, shortDescription, longDescription, thumbnailUrl }
 
         //posting to server
-        fetch("http://localhost:3000/celebrities", {
+        fetch("https://biodb-0wdv.onrender.com/celebrities", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(bookData)

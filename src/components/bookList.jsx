@@ -7,14 +7,14 @@ const BookList = () => {
     let [books,setBooks]=useState([])
     useEffect(()=>{
         let fetchData = async() => {
-            let response = await fetch("http://localhost:3000/celebrities")
+            let response = await fetch("https://biodb-0wdv.onrender.com/celebrities")
             let data= await response.json()
             setBooks(data)
         }
         fetchData()
     },[books])   //its is used delete,[]
     let handleClick = (id,title)=>{   
-        fetch(`http://localhost:3000/celebrities/${id}`,{
+        fetch(`https://biodb-0wdv.onrender.com/celebrities/${id}`,{
             method:"DELETE"
         })
         alert(`${title} will be deleted permently`)
